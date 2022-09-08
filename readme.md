@@ -68,8 +68,8 @@ dependencies {
 }
 ```
 
-Where `<repo>` is the repository name: `Mobile_SDK_Android_UAT`; `<tag>` is the version of SDK you want to use, prepend with `jp-`. Here is an example: 
-```implementation 'com.github.eservice-electronic-payments:Mobile_SDK_Android_UAT:jp-2.0.4'```
+Where `<repo>` is the repository name: `Mobile_SDK_Android`; `<tag>` is the version of SDK you want to use, prepend with `jp-`. Here is an example: 
+```implementation 'com.github.eservice-electronic-payments:Mobile_SDK_Android:jp-2.0.4'```
 
 ## Usage
 
