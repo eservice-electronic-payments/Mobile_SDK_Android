@@ -38,9 +38,8 @@ dependencies {
     // Moshi
     implementation("com.squareup.moshi:moshi-kotlin:1.9.3")
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
-    // 3DS v2.2.8070
-//    implementation project(":nsoft-libs")
-//    implementation fileTree(dir: 'libs', include: ['*.aar'])
-//    implementation(name: 'ipworks3ds_sdk_deploy', ext: 'aar')
-    implementation(name: 'ipworks3ds_sdk', ext: 'aar')
+    // 3DS(v2.2.8070) for production
+    implementation(name: 'ipworks3ds_sdk_deploy', ext: 'aar')
+    // 3DS(v2.2.8070) for development & debug
+    // implementation(name: 'ipworks3ds_sdk', ext: 'aar')
 }
